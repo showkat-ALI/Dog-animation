@@ -1,0 +1,38 @@
+.field{
+    border: 1px solid cadetblue;
+}
+.dog{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    transition: transform 0.1s ease-in 2s ;
+}
+.field:hover .dog{
+    transform: rotate(-60deg);
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    background-color: cyan;
+    border-radius: 50%;
+    position: relative;
+    top: 332px;
+    left: 845px;
+    transition: transform 2s ease-in;
+}
+.field:hover .ball{
+    transform: translate(-700px,-200px);
+}
+.angry-man{
+    width: 5%;
+    height: 5%;
+    position: relative;
+    left: 900px;
+    transition: transform 0.3s ease;
+}
+.field:hover .angry-man{
+    transform: rotate(20deg);
+    transform-origin: top left;
+}
